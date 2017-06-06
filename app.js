@@ -16,7 +16,7 @@ app.get('/', function (req, res, next) {
 	
 	
 	res.send("Hello World!");
-	/*
+	
 	var client = new elasticsearch.Client({  // default is fine for me, change as you see fit
 		host: 'localhost:9200'
 		//log: 'trace'
@@ -60,7 +60,7 @@ app.get('/', function (req, res, next) {
 			  });
 		
 		}
-	  });*/
+	  });
 
 })
 
