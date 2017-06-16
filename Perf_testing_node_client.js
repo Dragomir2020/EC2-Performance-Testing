@@ -71,7 +71,7 @@ require("jsdom").env("", function(err, window) {
             
           
         }
-    
+          // Function checks count 
           function checkCount(){
               count = count + 1;
                 //Exit loop if count is equal to 10
